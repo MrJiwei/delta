@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="delta:jar">
+    <output-path>$PROJECT_DIR$/classes/artifacts/delta_jar</output-path>
+    <root id="archive" name="delta.jar">
+      <element id="module-output" name="delta" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/svnkit-1.8.12.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/svnkit-javahl16-1.8.12.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/svnkit-cli-1.8.12.jar" path-in-jar="/" />
+      <element id="library" level="module" name="svnkit-cli-1.8.12.jar" module-name="delta" />
+      <element id="library" level="module" name="svnkit-1.8.12.jar" module-name="delta" />
+      <element id="library" level="module" name="svnkit-javahl16-1.8.12.jar" module-name="delta" />
+    </root>
+  </artifact>
+</component>
