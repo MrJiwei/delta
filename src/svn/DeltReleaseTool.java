@@ -17,7 +17,7 @@ import java.util.*;
  * 2、	解决后导出的文件不能覆盖之前文件问题
  */
 @SuppressWarnings("JavadocReference")
-public class DeltReleaseTool {
+public class  DeltReleaseTool {
     //工程路径
     String projectPath = "F:/workspace/esp";
     //导出路径
